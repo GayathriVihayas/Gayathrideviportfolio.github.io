@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #E4E4E4; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: white;
+    /* padding:2rem 5rem; */
+    font-size:small;
+    padding-top: 0%;
+}
+
+.navbar .nav-item{
+    padding: 30px 20px;
+    color:#000000;
+    font-weight: 800px;
+    font-size: large;
+    position:relative;
+    display: inline-block;
+    
+}
+.navbar .nav-item::after{
+    content: "";
+    height:5px;
+    width:0%;
+    position: absolute;
+    background-color: #E3AD0D;
+    left:0;
+   top: 33px;
+   transition: 0.3s;
+}
+.navbar .nav-item:hover:after{
+    width:100%; 
+}
+.navbar ul{
+    position: absolute;
+    right: 0;
+} 
+.work-section p{
+    text-align: center;
+    justify-content: center;   
+    padding-bottom: 50px; 
+    padding-top: 20px;
+    
+} 
+.heading h3{
+    position:relative;
+    display: inline-block;
+    padding-bottom: 50px;
+
+}
+.heading h3::after{
+    content: "";
+    height:3px;
+    width:70%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    top: 33px;
+}
+.socail-heading  h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.socail-heading  h3::after{
+    content: "";
+    height:3px;
+    width:70%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    top: 33px;
+
+}
+.soci-head{
+    font-weight: bold;
+    font-size: 10rem;
+    color:#cecece ;
+}
+.soci-para,.ngo-para{
+    font-size:12px;
+}
+.ngo-heading  h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.ngo-heading  h3::after{
+    content: "";
+    height:3px;
+    width:70%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    top: 33px;
+
+}
+.case-heading  h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.case-heading  h3::after{
+    content: "";
+    height:3px;
+    width:80%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    top: 34px;
+
+}
+.case-study p {
+   font-size: small;
+    
+}
+.Abo-heading h3{
+    position:relative;
+    display: inline-block;
+    
+   
+    
+}
+.Abo-heading h3::after{
+    content: "";
+    height:3px;
+    width:80%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    color:black;
+   top: 35px;
+}
+.Abo-right button{
+    margin-top: 50px;
+    margin-right: 1px;
+    
+}
+.Abo-right button:hover{
+ margin-top: 50px;
+ 
+ background-color: rgb(185, 185, 51);
+ /* border-color: ; */
+}
+.skill-heading  h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.skill-heading  h3::after{
+    content: "";
+    height:3px;
+    width:70%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    top: 33px;
+
+}
+.icons{
+    align-items: center;
+    
+}
+.icons-footer{
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ margin:auto;
+ padding-bottom: 10px;
+ margin-bottom: 20px;
+}
+.intro-section{
+    top: 300px;
+}
+.intro-section p{
+     
+    padding-bottom: 50px; 
+    padding-top: 20px;
+    
+    
+    
+}
+.how-right h3{
+    position:relative;
+    display: inline-block;
+    
+   
+    
+}
+.how-right h3::after{
+    content: "";
+    height:3px;
+    width:80%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    color:black;
+   top: 36px;
+}
+.object-section h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.object-section  h3::after{
+    content: "";
+    height:3px;
+    width:50%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left: 3rem;
+    top: 49px;
+
+}
+.emp-para{
+    text-align: left;
+}
+.ideate-section h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.ideate-section  h3::after{
+    content: "";
+    height:3px;
+    width:80%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:0;
+    top: 49px;
+
+}
+.lowfid-left h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.lowfid-left h3::after{
+    content: "";
+    height:3px;
+    width:50%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:3rem;
+    top: 49px;
+
+}
+.highfid-left h3{
+    position:relative;
+    display: inline-block;
+    
+}
+.highfid-left h3::after{
+    content: "";
+    height:3px;
+    width:50%;
+    position: absolute;
+    background-color:#E3AD0D;
+    left:3rem;
+    top: 79px;
+
+}
+.highfid-section{
+    top:20px;
+}
+span{
+    font-weight: bold;
+    font-size:larger;
+    font-style: italic;
+}
